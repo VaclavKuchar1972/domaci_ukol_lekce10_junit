@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Tak asi OK.">
+    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" afterDir="false" />
     </list>
@@ -45,7 +45,16 @@
     "onboarding.tips.debug.path": "C:/DATADISK/PRACE/JAVA/ENTEGO/JAVA-VaclavKuchar-DomaciUkol-Lekce10-JednotkoveTestovani/domaci_ukol_lekce10_junit/src/main/java/cz/domaciukollekce10/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FindMatchingTest">
+  <component name="RunManager" selected="JUnit.FindMatchingTest.randomTest">
+    <configuration name="FindMatchingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domaci_ukol_lekce10_junit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindMatchingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domaci_ukol_lekce10_junit" />
       <extension name="coverage">
@@ -77,6 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindMatchingTest.randomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domaci_ukol_lekce10_junit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindMatchingTest" />
+      <option name="METHOD_NAME" value="randomTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domaci_ukol_lekce10_junit" />
       <extension name="coverage">
@@ -92,45 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest.HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="domaci_ukol_lekce10_junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.domaciukollekce10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.domaciukollekce10" />
-      <option name="MAIN_CLASS_NAME" value="cz.domaciukollekce10.HelloWorldTest" />
-      <option name="METHOD_NAME" value="HelloWorldTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorldTest.printHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="domaci_ukol_lekce10_junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.domaciukollekce10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.domaciukollekce10" />
-      <option name="MAIN_CLASS_NAME" value="cz.domaciukollekce10.HelloWorldTest" />
-      <option name="METHOD_NAME" value="printHelloTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMatchingTest.randomTest" />
+        <item itemvalue="JUnit.FindMatchingTest (1)" />
         <item itemvalue="JUnit.FindMatchingTest" />
         <item itemvalue="JUnit.HelloWorldTest" />
         <item itemvalue="JUnit.FindMatchingTest.middle1Test" />
-        <item itemvalue="JUnit.HelloWorldTest.printHelloTest" />
-        <item itemvalue="JUnit.HelloWorldTest.HelloWorldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699813013562</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel...">
+      <option name="closed" value="true" />
+      <created>1699813842495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699813842495</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,7 +187,8 @@
     <MESSAGE value="Po dodání třídy Find." />
     <MESSAGE value="Trochu jsem toho napsal, ale nejsem si moc jistej... ...uvidím, jak se to dál vyvine. :D" />
     <MESSAGE value="Tak asi OK." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tak asi OK." />
+    <MESSAGE value="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
