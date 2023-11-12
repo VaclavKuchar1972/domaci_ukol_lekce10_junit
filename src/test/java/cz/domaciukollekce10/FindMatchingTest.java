@@ -63,7 +63,7 @@ public class FindMatchingTest {
             Double testResult = findNumber.findMatchingNumber(testList, lowerLimit, upperLimit);
             Assertions.assertTrue(testList.contains(testResult) && testResult >= lowerLimit
                             && testResult <= upperLimit,
-                    "Výsledek testu NENÍ v mezích rozsdahu¨!");
+                    "Výsledek testu NENÍ v mezích rozsahu¨!");
         } catch (IllegalArgumentException e) {
             Assertions.assertEquals("Žádné vhodné číslo nebylo nalezeno...", e.getMessage());
         }
