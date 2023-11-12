@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Po úpravě pom.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Find.java" afterDir="false" />
+    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Po dodání třídy Find.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/HelloWorldTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Find.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -43,6 +48,95 @@
     "onboarding.tips.debug.path": "C:/DATADISK/PRACE/JAVA/ENTEGO/JAVA-VaclavKuchar-DomaciUkol-Lekce10-JednotkoveTestovani/domaci_ukol_lekce10_junit/src/main/java/cz/domaciukollekce10/Main.java"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.HelloWorldTest">
+    <configuration name="FindMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domaci_ukol_lekce10_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.domaciukollekce10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cz.domaciukollekce10" />
+      <option name="MAIN_CLASS_NAME" value="cz.domaciukollekce10.FindMatchingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMatchingTest.middle1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domaci_ukol_lekce10_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.domaciukollekce10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cz.domaciukollekce10" />
+      <option name="MAIN_CLASS_NAME" value="cz.domaciukollekce10.FindMatchingTest" />
+      <option name="METHOD_NAME" value="middle1Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domaci_ukol_lekce10_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.domaciukollekce10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cz.domaciukollekce10" />
+      <option name="MAIN_CLASS_NAME" value="cz.domaciukollekce10.HelloWorldTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldTest.HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domaci_ukol_lekce10_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.domaciukollekce10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cz.domaciukollekce10" />
+      <option name="MAIN_CLASS_NAME" value="cz.domaciukollekce10.HelloWorldTest" />
+      <option name="METHOD_NAME" value="HelloWorldTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldTest.printHelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domaci_ukol_lekce10_junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cz.domaciukollekce10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cz.domaciukollekce10" />
+      <option name="MAIN_CLASS_NAME" value="cz.domaciukollekce10.HelloWorldTest" />
+      <option name="METHOD_NAME" value="printHelloTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelloWorldTest" />
+        <item itemvalue="JUnit.FindMatchingTest" />
+        <item itemvalue="JUnit.FindMatchingTest.middle1Test" />
+        <item itemvalue="JUnit.HelloWorldTest.printHelloTest" />
+        <item itemvalue="JUnit.HelloWorldTest.HelloWorldTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,20 +162,29 @@
       <option name="project" value="LOCAL" />
       <updated>1699803041344</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Po dodání třídy Find.">
+      <option name="closed" value="true" />
+      <created>1699803274941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699803274941</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Po úpravě GITignore." />
     <MESSAGE value="Po úpravě pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Po úpravě pom.xml" />
+    <MESSAGE value="Po dodání třídy Find." />
+    <option name="LAST_COMMIT_MESSAGE" value="Po dodání třídy Find." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Main.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
