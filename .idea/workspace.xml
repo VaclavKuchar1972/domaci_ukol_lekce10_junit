@@ -4,17 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Po úpravě GITignore.">
+    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Po úpravě pom.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Find.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -50,12 +60,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699802079364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Po úpravě pom.xml">
+      <option name="closed" value="true" />
+      <created>1699803041344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699803041344</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Po úpravě GITignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Po úpravě GITignore." />
+    <MESSAGE value="Po úpravě pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Po úpravě pom.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
