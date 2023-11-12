@@ -27,21 +27,26 @@ public class FindMatchingTest {
                 (testList, 10.0, 12.0));
     }
 
-
-
-
-    /*
-    public static Double findMatchingNumber(List<Double> list, Double lowerLimit, Double upperLimit) {
-        if (list == null || list.isEmpty() || lowerLimit == null || upperLimit == null
-                || lowerLimit >= upperLimit) {
-            throw new IllegalArgumentException("Neplatné parametry...");
-        }
-        for (Double item : list) {if (item >= lowerLimit && item <= upperLimit) {return item;}}
-        throw new IllegalArgumentException("Žádné vhodné číslo nebylo nalezeno...");
+    @Test
+    @DisplayName("First self-test according homework")
+    public void middle2Test() {
+        List<Double> testList = List.of(12.0, 8.126, 6.0);
+        Double testResult = Find.findMatchingNumber(testList, 11.0, 12.6);
+        Assertions.assertEquals(12.0, testResult);
     }
 
-     */
-
+    @Test
+    @DisplayName("Second self-test according homework - Lamda")
+    public void middle3Test() {
+        List<Double> testList = List.of(12.0, 8.126, 9.0, 158.0, 6.0);
+        Assertions.assertDoesNotThrow(
+                // pokus o zápis dle Lambda zápisu - tak snad...
+                () -> {
+                    Double testResult = Find.findMatchingNumber(testList, 8.0, 10.0);
+            Assertions.assertEquals(8.126, testResult);
+                }
+        );
+    }
 
 
 }
