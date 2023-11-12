@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="" />
+    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Po úpravě GITignore.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,20 @@
       <option name="presentableId" value="Default" />
       <updated>1699801782657</updated>
     </task>
+    <task id="LOCAL-00001" summary="Po úpravě GITignore.">
+      <option name="closed" value="true" />
+      <created>1699802079364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699802079364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Po úpravě GITignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Po úpravě GITignore." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
