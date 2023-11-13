@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel...">
+    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Tak snad OK2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +27,24 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/cz/domaciukollekce10/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2Y53nmRrX5k72EjmmYk9ZZca0x9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/DATADISK/PRACE/JAVA/ENTEGO/JAVA-VaclavKuchar-DomaciUkol-Lekce10-JednotkoveTestovani/domaci_ukol_lekce10_junit/src/main/java/cz/domaciukollekce10/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/DATADISK/PRACE/JAVA/ENTEGO/JAVA-VaclavKuchar-DomaciUkol-Lekce10-JednotkoveTestovani/domaci_ukol_lekce10_junit/src/main/java/cz/domaciukollekce10/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.FindMatchingTest.randomTest">
+}</component>
+  <component name="RunManager" selected="JUnit.FindMatchingTest (1)">
     <configuration name="FindMatchingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domaci_ukol_lekce10_junit" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindMatchingTest.randomTest" />
         <item itemvalue="JUnit.FindMatchingTest (1)" />
+        <item itemvalue="JUnit.FindMatchingTest.randomTest" />
         <item itemvalue="JUnit.FindMatchingTest" />
         <item itemvalue="JUnit.HelloWorldTest" />
         <item itemvalue="JUnit.FindMatchingTest.middle1Test" />
@@ -178,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699813842495</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tak snad OK.">
+      <option name="closed" value="true" />
+      <created>1699818021173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699818021173</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tak snad OK2.">
+      <option name="closed" value="true" />
+      <created>1699818142463</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699818142463</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,7 +203,9 @@
     <MESSAGE value="Trochu jsem toho napsal, ale nejsem si moc jistej... ...uvidím, jak se to dál vyvine. :D" />
     <MESSAGE value="Tak asi OK." />
     <MESSAGE value="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel..." />
+    <MESSAGE value="Tak snad OK." />
+    <MESSAGE value="Tak snad OK2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tak snad OK2." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

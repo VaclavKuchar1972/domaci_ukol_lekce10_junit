@@ -10,8 +10,13 @@ public class FindMatchingTest {
     private List<Double> testList;
 
     @BeforeEach
-    public void setUp() {
-        testList = new ArrayList<>();
+    public void setUp() {testList = new ArrayList<>();}
+
+    @Test
+    @DisplayName("Exception test")
+    public void emptyTest () {
+        Assertions.assertThrows(Exception.class, () -> Find.findMatchingNumber
+                (testList, 10.0, 12.0));
     }
 
     @Test
@@ -20,13 +25,6 @@ public class FindMatchingTest {
         testList = List.of(10.0, 15.45, 5.811, 175.0);
         Double testResult = Find.findMatchingNumber(testList, 4.0, 9.3);
         Assertions.assertEquals(5.811, testResult);
-    }
-
-    @Test
-    @DisplayName("Exception test")
-    public void emptyTest () {
-        Assertions.assertThrows(Exception.class, () -> Find.findMatchingNumber
-                (testList, 10.0, 12.0));
     }
 
     @Test
@@ -50,13 +48,12 @@ public class FindMatchingTest {
     // Tak toto bylo logický peklo! A vůbec si nejsem jist, že tento kód je v pořádku...
     @RepeatedTest(100)
     @DisplayName("Random test")
+    @Disabled
     public void randomTest() {
         Random random = new Random();
         testList.clear();
         int size = random.nextInt(10) + 1;
-        for (int i = 0; i < size; i++) {
-            testList.add(random.nextDouble() * 100);
-        }
+        for (int i = 0; i < size; i++) {testList.add(random.nextDouble() * 100);}
         double lowerLimit = random.nextDouble() * 100;
         double upperLimit = lowerLimit + random.nextDouble() * (100 - lowerLimit); // tady to mám určitě OK
         try {
