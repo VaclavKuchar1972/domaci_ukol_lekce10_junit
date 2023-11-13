@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Tak snad OK2.">
+    <list default="true" id="a08057c4-0950-41eb-acd3-c30e3fb591cb" name="Changes" comment="Ještě drobná úprava. :-)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/domaciukollekce10/FindMatchingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699818142463</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ještě drobná úprava. :-)">
+      <option name="closed" value="true" />
+      <created>1699855995754</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699855995754</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,7 +214,8 @@
     <MESSAGE value="Vypadá to OK, ještě zkusím test pomocí náhodnejch čísel..." />
     <MESSAGE value="Tak snad OK." />
     <MESSAGE value="Tak snad OK2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tak snad OK2." />
+    <MESSAGE value="Ještě drobná úprava. :-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ještě drobná úprava. :-)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

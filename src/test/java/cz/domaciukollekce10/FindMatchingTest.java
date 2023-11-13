@@ -29,6 +29,7 @@ public class FindMatchingTest {
 
     @Test
     @DisplayName("First self-test according homework")
+    @Tag("TEST2")
     public void middle2Test() {
         testList = List.of(12.0, 8.126, 6.0);
         Double testResult = Find.findMatchingNumber(testList, 11.0, 12.6);
@@ -37,6 +38,7 @@ public class FindMatchingTest {
 
     @Test
     @DisplayName("Second self-test according homework - Lambda")
+    @Tag("TEST3")
     public void middle3Test() {
         testList = List.of(12.0, 8.126, 9.0, 158.0, 6.0);
         Assertions.assertDoesNotThrow(() -> {
@@ -48,6 +50,7 @@ public class FindMatchingTest {
     // Tak toto bylo logický peklo! A vůbec si nejsem jist, že tento kód je v pořádku...
     @RepeatedTest(100)
     @DisplayName("Random test")
+    @Tag("RANDOM_TEST")
     @Disabled
     public void randomTest() {
         Random random = new Random();
